@@ -10,3 +10,16 @@
 1519824854 c:\users\lz\desktop\cpp\proj_1\mystring.h
 	<iostream>
 
+1519825246 source:c:\users\lz\desktop\proj_cpp\proj_1\main.cpp
+	<iostream>
+	"Mystring.h"
+
+1519824854 c:\users\lz\desktop\proj_cpp\proj_1\mystring.h
+	<iostream>
+
+1519871392 source:c:\users\lz\desktop\proj_cpp\proj_1\mystring.cpp
+	<iostream>
+	"Mystring.h"
+	<cstdlib>
+	<cstring>
+

@@ -1,3 +1,4 @@
+#include <iostream>
 #include "Mystring.h"
 #include <cstdlib>
 #include <cstring>
@@ -32,6 +33,7 @@ MyString::MyString(const char *str):m_data(nullptr)
             p = nullptr;
         }
     }
+    cout << "normal inition" << endl;
 }
 
 //拷贝构造函数
@@ -50,6 +52,7 @@ MyString::MyString(const MyString &other)
         m_data = p;
         p = nullptr;
     }
+    cout << "copy inition" << endl;
 }
 
 //析构函数
@@ -80,6 +83,8 @@ MyString & MyString::operator = (const MyString & other)
         m_data = p;
         p = nullptr;
     }
+
+    cout << "operation= inition" << endl;
 
     return *this;
 }
