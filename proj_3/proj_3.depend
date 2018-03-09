@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1520601255 source:c:\users\lz\desktop\proj_cpp\proj_3\main.cpp
+	<iostream>
+	"SmartPoint.h"
+
+1520601838 c:\users\lz\desktop\proj_cpp\proj_3\smartpoint.h
+	<iostream>
+
